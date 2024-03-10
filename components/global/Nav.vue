@@ -73,6 +73,7 @@ export default {
   z-index: 5;
   height: 4.5rem;
   background-color: #000;
+  padding-bottom: 10px; /* Added space below the navbar */
 
   @media (min-width: $breakpoint-large) {
     top: 0;
@@ -80,6 +81,7 @@ export default {
     width: 10rem;
     height: 100%;
     border-right: 1px solid $secondary-color;
+    padding-bottom: 0; /* Reset padding for large screens */
   }
 
   ul {
@@ -139,3 +141,4 @@ a.nuxt-link-active {
   }
 }
 </style>
+
